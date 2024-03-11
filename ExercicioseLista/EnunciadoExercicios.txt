@@ -1,0 +1,935 @@
+Lista 01 - Diagramas de Atividades
+1. Crie um diagrama de atividade que represente o seguinte programa:
+
+a) O usuário informa 2 notas
+
+b) O programa calcula a média entre elas
+
+c) O programa exibe a média
+
+
+
+2. Crie um diagrama de atividade que represente o seguinte programa:
+
+a) O usuário informa 2 notas
+
+b) O programa calcula a média entre elas
+
+c) O programa exibe a "#partiuestágio" caso a média seja maior ou igual a 5 e "#partiutentardenovo" em caso contrário
+
+
+3. Crie um diagrama de atividade que represente o seguinte programa:
+a) O usuário informa seu sexo e sua idade
+
+b) Caso seja homem e menor de 18 anos, exiba "Você é homem e menino"
+
+c) Caso seja homem e idade a partir de 18 anos, exiba "Você é homem maior de idade"
+
+d) Caso seja mulher e menor de 18 anos, exiba "Você é mulher e menina"
+
+e) Caso seja mulher e idade a partir de 18 anos, exiba "Você é mulher maior de idade"
+
+
+
+4. Crie um diagrama de atividade que represente o seguinte programa: 
+
+a) Leia o estado brasileiro onde o usuário nasceu. Só aceite estados válidos, insistindo novamente até que seja informado um estado brasileiro 
+
+b) Leia a quantidade de filhos que o usuário tem, porém, ela deve ficar entre 0 e 15. Caso contrário, insista novamente até que fique. 
+
+c) Caso a quantidade de filhos for 3, exiba "#nãotemtv  #nãoteminternet #nãotemvideogame". 
+
+d) Caso a quantidade de filhos for 2, exiba "#nãotemtv".  
+
+e) Caso a quantidade de filhos for 1, exiba "#nãotemvideogame".  
+
+f) Caso não tenha filhos, exiba "#tv  #internet  #videogame" 
+
+g) Caso a quantidade de filhos for mais de 3, exiba "#cresceiemultiplicaivos" 
+
+  
+
+5. Crie um diagrama de atividade que represente o seguinte programa: 
+
+a) O usuário informa quantas horas por noite dorme 
+
+b) Caso ele durma de 0 a 4, exiba "#zumbi" 
+
+c) Caso ele durma mais de 4 até menos de 7, exiba "Pouca concentração" 
+
+d) Caso ele durma de 7 a 9, exiba "Boa concentração" 
+
+e) Caso ele durma mais de 9, exiba "Olha a preguiça!" 
+
+  
+
+6.  Crie um diagrama de atividade que represente o seguinte programa:  
+
+a) O usuário informa a frente e a lateral de um terreno retangular  
+
+b) O programa calcula a área do terreno  
+
+c) O programa exibe “#terrenopequeno” se a área for menor que 100, exibe “#terrenomedio” se a área estiver entre 100 e 250 ou exibe “#terrenogrande” caso a área for maior que 250    
+
+ 
+
+7. Crie um diagrama de atividade que represente o seguinte programa:  
+
+a) O usuário informa o salário de estagiário e o valor da faculdade.  
+
+b) O programa calcula a média diária salário líquido (salário – faculdade). Considerar 30 dias   
+
+c) Caso a média seja menor que 15, exibir “#controletotal”  
+
+d) Caso a média esteja entre 15 e 20, exibir “#ragazzonosabado”  
+
+e) Caso a média seja maior que 20 e menor 25, exibir “#cinemanamorada”  
+
+f) Caso a média é de 25 a 30, exibir “#novogame”  
+
+g) Caso a média seja maior que 30, exibir “#tobonito”  
+
+  
+
+  
+
+8. Crie um diagrama de atividade que represente o seguinte programa:  
+
+a) O usuário informa o sexo e se nasceu no Brasil 
+
+b) Caso seja Homem e tenha nascido no Brasil, exiba “Você é homem e brasileiro!”  
+
+c) Caso seja Homem e não tenha nascido no Brasil, exiba “Você é homem e estrangeiro!”  
+
+d) Caso seja Mulher e tenha nascido no Brasil, exiba “Você é mulher e brasileira!”  
+
+e) Caso seja Mulher e não tenha nascido no Brasil, exiba “Você é mulher e estrangeira!”  
+
+    
+
+9. Crie um diagrama de atividade que represente o seguinte programa:  
+
+Na franquia de desenhos animados "Dragon Ball" existe uma raça chamada "Namekusei". Eles regeneram uma parte do corpo caso seja retirada a força. Porém, sempre que fazem isso, perdem 10% de sua força vital (seu "ki"). Quando seu ki está em 5% ou menos, não podem mais se renegerar e morrem. 
+
+a) No diagrama de atividades, o Namekusei começa recebendo um golpe.  
+
+b) Verifique se o golpe retirou uma parte de seu corpo. Se retirou uma parte do corpo, verifique se ainda tem energia suficiente para se regenerar em c). Se não retirou, começa tudo novamente e recebe outro golpe.  
+
+c) Se removeu uma parte e ainda pode se regenerar, regenera e perde ki. Se não tem energia para regenerar, morre. Se não morreu, simplesmente começa tudo novamente e recebe outro golpe.  
+
+  
+
+ 10. Crie um diagrama de atividade que:  
+
+a) Receba 2 notas de um aluno. Nenhuma delas pode ser menor que 0 nem maior que 10.  
+
+b) A frequência em aula também deve ser solicitada e só devem ser aceitos valores entre 0 e 100, insistindo-se nessa entrada até que seja informado um valor válido.  
+
+c) Calcule a média e exiba ela.  
+
+d) Exiba "Parabéns, aprovado" se a média for maior ou igual a 6 e a frequência for a partir de 70% ou "Infelizmente, reprovado" em caso contrário.  
+
+e) Pergunte se será cadastrado um novo aluno. Se "sim", volte para o item a). Em caso contrário, finalize o programa.  
+
+
+
+Lista 02 - Introdução a JS
+1. Crie um programa o qual:  
+
+a) Tenha o campo "Cidade Natal"  
+
+b) Tenha o campo "Ano de nascimento"  
+
+c) Tenha o botão "Cadastrar"  
+
+d) Ao clicar no botão, deve aparecer uma caixa de alerta com a frase:  
+
+   " Você nasceu na cidade de X em Y"  - Onde X é o valor do campo em a) e Y é o valor do campo em b)  
+
+   
+
+2. Crie uma página que solicite ao usuário que digite seu peso e altura.  
+
+a) Deve haver um botão com o texto "Fale comigo".  
+
+b) Ao clicar no botão, deve aparecer uma frase como esta numa caixinha de alerta:  
+
+     "Você pesa X e tem Y de altura" - Onde X e Y são os valores que o usuário digitou, claro  
+
+  
+
+3. Crie uma página que solicite ao usuário que digite o nome do time que torce e quantos títulos o clube dele possui.  
+
+a) Deve haver um botão com o texto "Amo meu time".  
+
+b) Ao clicar no botão, deve aparecer uma frase como está numa caixinha de alerta:  
+
+     "O time X tem Y títulos" - Onde X e Y são os valores que o usuário digitou, claro  
+
+  
+
+4. Crie uma página que solicite ao usuário que digite o nome da rua/avenida/vila e o número da casa onde mora.  
+
+a) Deve haver um botão com o texto "Onde eu moro".  
+
+b) Ao clicar no botão, deve aparecer uma frase como esta na página:  
+
+     "Seu logradouro é X" - Onde X é o valor que o usuário digitou no primeiro campo  
+
+c) Na sequência da mensagem acima, deve aparecer:  
+
+     "O número do seu logradouro é Y"  - Onde Y é o valor que o usuário digitou no segundo campo  
+
+
+
+Lista 03 - Operações Aritméticas, Variáveis e innerHTML
+ 1. Crie um programa o qual:  
+
+a) Solicite a idade do usuário  
+
+b) Deve haver 2 botões abaixo: "Aposentadoria Homem" e "Aposentadoria Mulher"  
+
+c) No primeiro botão, calcule e exiba um alert com o tempo que falta para se aposentar  caso seja homem, considerando que um homem se aposenta com 70 anos  
+
+d) No segundo botão, calcule e exiba um alert com o tempo que falta para se aposentar caso seja mulher, considerando que uma mulher se aposenta com 60 anos  
+
+  
+
+2. Todo mundo adora pizza! Existem para todos os gostos! Crie um programa que ajude um grupo de amigos a saber quanto uma pizza vai custar para cada amigo.  
+
+a) Solicite o valor da pizza e a quantidade de amigos que vão dividir o valor.  
+
+b) Ao clicar num botão "#lovePizza", exiba um alerta com a frase  
+
+     "Cada um dos X amigos vai pagar R$Y"  
+
+Onde X é a quantidade de amigos e Y é o resultado do cálculo que seu programa fará  
+
+
+
+3. Um estudante recebeu o Bilhete Único de estudante pela primeira vez e deseja saber quanto vai economizar por mês. O valor para estudante é metade do valor da passagem. Crie um programa que:  
+
+a) Pergunte a ele o valor da passagem  
+
+b) Pergunte a ele quantas viagens fará por mês  
+
+c) Ao clicar num botão "Ver economia", deve ver um alerta com uma frase como esta: "Você economizará R$X por mês"  
+
+
+
+4. No desenho animado Dragon Ball, existem personagens de uma raça chamada Sayajins. Eles possuem a seguinte característica: Quando estão em sua "forma normal", sua força (ou "ki") é normal. Quando estão na forma Super Sayajin, sua força (ou "ki") aumenta em 50x. Quando estão na forma Super Sayajin 2, sua força (ou "ki") aumenta em 100x. Crie um programa que ajude a calcular o "ki" de um guerreiro Sayajin.  
+
+a) Solicite o nome do guerreiro  
+
+b) Solicite o ki normal do guerreiro  
+
+c) Ao clicar num botão "Ver ki em cada forma", exiba um alerta para a forma Super Sayajin e outro para Super Sayajin 2, exibindo seus respectivos "ki". Em ambas exiba o nome do guerreiro também  
+
+  
+
+5. Na faculdade SPTech o aluno tem 2 notas: A da "avaliação continuada" e a da "avaliação semestral". A média final é a soma simples entre 40% da "continuada" e 60% da "semestral". Assim, para ajudar um aluno para saber o quanto precisa para passar e estagiar em empresas como Easynvest, C6Bank, Tivit, Banco Safra, Deloitte, HP etc, crie um programa que:  
+
+a) Solicite a nota que ele tirou na "continuada" e na "semestral"  
+
+b) Solicite o nome do aluno  
+
+c) Calcule sua média  
+
+d) Exiba uma frase como esta "A média de NOME será de MEDIA". Onde NOME é o valor informado em b) e MEDIA, o valor calculado em c)  
+
+  
+
+6. Crie um programa que:  
+
+a) Solicite 2 números ao usuário  
+
+b) tenha um botão para cada operação aritmética. Ao clicar em algum deles, exibir na página uma dessas frases:  
+
+   - A soma entre X e Y é Z  
+
+   - A diferença entre X e Y é Z  
+
+   - O produto entre X e Y é Z  
+
+   - A razão entre X e Y é Z        
+
+
+
+
+7. Crie um programa que:  
+
+a) Tenha os botões “Receber 100” e “Pagar 50”.  
+
+b) Ao clicar em “Receber 100”, atualize o saldo do usuário e exiba a mensagem “Transferência de R$100 recebida! Saldo atual: R$Y”. 
+
+c) Ao clicar em “Pagar 50”, atualize o saldo do usuário e exiba a mensagem “Pagamento de R$50 efetuado! Saldo atual: R$Y”. 
+
+OBS: o valor do saldo se inicia em 0, para depois ir reduzindo/incrementando de acordo com a operação realizada 
+
+
+
+
+
+8. Crie um programa que:  
+
+a) Solicite o valor a ser depositado/retirado pelo usuário 
+
+b) Tenha os botões “Depositar” e “Retirar”. Ao clicar em algum deles, exibe um alerta com uma das mensagens abaixo, de acordo com o botão que foi clicado:  
+
+   - Depósito de R$X efetuado! Saldo atual: R$Y 
+
+   - Retirada de R$X efetuada! Saldo atual: R$Y 
+
+OBS: o valor do saldo atual se inicia em 0, para depois ir reduzindo/incrementando de acordo com a operação realizada 
+
+
+
+
+9. Crie um programa que ajude a calcular o tempo de cada fase do sono do ser humano.  
+
+ Sabendo que nosso sono possui fases como descreve a figura abaixo:  
+
+
+
+Vamos considerar que as fases do sono possuem a porcentagens de tempo descritas na figura.  
+
+a) Solicite ao usuário quantas horas de sono ele dormiu  
+
+b) Ao clicar no botão "Calcular Sono", faça os cálculos necessários para exibir o seguinte conteúdo na tela:  
+
+    Ao dormir X horas, você dormiu:  
+
+    A horas na fase 1  
+
+    B horas na fase 2  
+
+    C horas na fase 3  
+
+    D horas na fase REM  
+
+   
+
+   
+
+10. Crie um programa o qual:  
+
+a) Solicite a quantidade de votos que o "Candidato A" teve na eleição  
+
+b) Solicite a quantidade de votos que o "Candidato B" teve na eleição  
+
+c) Solicite a quantidade de votos brancos que houveram na eleição  
+
+d) Solicite a quantidade de votos nulos que houveram na eleição  
+
+e) Ao clicar em "Resultado da Eleição", exibir textos  conforme o exemplo abaixo:  
+
+    Total de votos: 200  
+
+    Candidato A: 40% (80 votos)  
+
+    Candidato B: 35% (70 votos)  
+
+    Inválidos: 25% (50 votos)  
+
+A quantidade de votos "Inválidos" é a soma de brancos e nulos - valores colhidos nos itens c) e d) -  
+
+Não se preocupe em mostrar primeiro o "vencedor". Não temos como saber isso com o que aprendemos na programação até aqui ;)   
+
+Mostre os candidatos na ordem que quiser.  
+
+  
+
+  
+
+11. Crie um programa o qual:  
+
+a) Solicite ao usuário um número para ver sua "tabuada";  
+
+b) Ao clicar em "Ver Tabuada", aparece na tela algo como isso:  
+
+   3 x 1 = 3  
+
+   3 x 2 = 6  
+
+   3 x 3 = 9  
+
+  (e assim por diante... até x 9)  
+
+   3 x 9 = 27  
+
+  No exemplo, o usuário digitou 3 no item a).  
+
+   
+
+  
+
+12. Todo mundo gosta de pizza! É um prato super democrático, pois existem sabores veganos, vegetarianos, sem glúten, "low carb" (pouco carboidrato), doces etc.   
+
+Crie um programa o qual:  
+
+a) Solicite o sabor e o preço da pizza;  
+
+b) Solicite a quantidade de amigos que vão comer;  
+
+c) Ao clicar num botão "Ver valor por amigo", calcule e exiba na tela uma frase como esta:  
+
+    Cada amigo vai colaborar com R$X para a pizza de Y.  
+
+Obs: inclua no valor da pizza a caixinha do entregador que é sempre 10% do valor da pizza.  
+
+Obs²: Y é o sabor da pizza;  
+
+   
+
+  
+
+13. Crie um programa o qual:   
+
+a) Solicite o valor da passagem de ônibus;  
+
+b) Solicite a quantidade de viagens que o usuário faz por mês;  
+
+c) Solicite a distância do trabalho dele até sua casa (em km);  
+
+d) Ao clicar em "Calcular VT" calcule e exiba na tela quanto o usuário gastará por mês com transporte com uma frase como esta:  
+
+   Você vai gastar R$X por mês com transporte.  
+
+Obs: considere que uma viagem de Uber (99, cabify, etc) custa R$0,75 por km (ou seja, uma viagem de 10km custará R$7,50).  
+
+Obs: considere que o número de viagens de Uber (99, cabify, etc) que o usuário faz por mês é de 10% do número de viagens de ônibus (ou seja, se ele indicar que faz 50 viagens, considere 45 de ônibus e 5 de transporte de aplicativo).  
+
+  
+
+  
+
+14. Na franquia de desenhos animados “Dragon Ball”, existe a raça guerreira “Saiyajin”, que pode se transformar para obter diferentes níveis de poder. 
+
+Crie um programa que demonstre como o poder de guerreiros Sayajins aumenta na medida em que se transformam:  
+
+a) Solicite o "ki base" (força base) do guerreiro Sayajin;  
+
+b) Abaixo, deve haver o texto "Transformar em...";  
+
+c) Abaixo, devem haver os botões "SSJ", "SSJ2", "SSJ3", lado a lado entre si;  
+
+d) Ao clicar num dos botões, é calculado o novo ki do Sayajin conforme a regra de cada transformação:  
+
+    SSJ: ki base x 50  
+
+    SSJ2: ki base x 100  
+
+    SSJ3: ki base x 200  
+
+e) O valor do novo ki deve aparecer abaixo com uma frase como esta:  
+
+    Após se transformar em X, o ki desse Sayajin passa a ser de Y 
+
+    Onde X é o nome da transformação (SSJ, SSJ2 ou SSJ3) e Y é o valor calculado em d)  
+
+ 
+
+  
+
+15. Crie um programa o qual:  
+
+a) Solicite o peso e a altura do usuário;  
+
+b) Ao clicar num botão "Calcular IMC":  
+
+    b.1) Calcule e exiba seu IMC na tela (não num alert), abaixo do botão;  
+
+Obs: Pesquise a fórmula simples de IMC na internet;  
+
+
+Lista 04 - Estrutura de Decisão (IF/ELSE)
+
+
+
+1. Crie um programa que:  
+
+a) Pergunte ao usuário sua idade.  
+
+b) Ao clicar num botão "Ir pra festa":  
+
+   b1) Caso a idade seja menor que 18, deve aparecer um alert com a frase "Pedir permissão pro responsável" 
+
+   b2) Sempre vai aparecer um alert com a palavra "#partiuFesta" ao final  
+
+OBS: caso tenha 18 anos ou mais, deve somente a segunda mensagem. 
+
+   
+
+  
+
+2. Joka bebe com certa frequência e quer saber quanto consome de refrigerante em 1 ano. Para ajudá-lo a saber essa informação, crie um programa o qual:   
+
+a) Pergunte quantas latinhas de refrigerante toma por dia  
+
+b) Ao clicar num botão "Quantos refris?", calcule a quantidade de refrigerante que ele consome em 1 ano, considerando que 1 ano possui 365 dias  
+
+c) Exiba na página a quantidade de latinhas que ele consome por ano  
+
+d) Somente caso a quantidade seja a partir de 500, exiba também a frase: "Cuidado com a diabetes!"  
+
+  
+
+  
+
+3. Paty é muito estudiosa e sua meta é sempre ser uma aluna fora de série. Na faculdade onde estuda, os "fora de série" são os alunos com média acima de 9,4. Portanto, para ajudá-la, crie um programa o qual:  
+
+a) Pergunte o valor de 3 notas  
+
+b) Ao clicar num botão "Analisar desempenho", calcule a média entre as notas e exiba na tela a frase "Sua média foi de X", onde X é a média calculada  
+
+c) Somente caso a média for acima de 9,4 exibir também a frase "Parabéns, você é fora de série!"  
+
+  
+
+  
+
+4. Um grupo de amigos costuma se reunir na casa de um deles para comer pizza. Só que eles têm um trato de que o valor da pizza, quando dividido entre os amigos, não deve passar de 20,00 por amigo. Ajude-os criando um programa o qual: 
+
+a) Pergunte o valor da pizza 
+
+b) Pergunte a quantidade de amigos reunidos 
+
+c) Ao clicar em "Rola a pizza?", calcule e exiba o valor que cada amigo vai pagar na pizza com uma frase na página como esta "Cada amigo vai pagar R$X pela pizza" 
+
+d) Somente caso o valor por amigo passe de R$20,00, exiba também a frase "Deu ruim! Pizza muito cara!" 
+
+  
+
+  
+
+FALAR RAPIDAMENTE COMO ALTERAR O STYLE VIA JAVASCRIPT COM ‘id.style.color’ 
+
+4a. Refaça a questão anterior de tal forma que a frase do item d) apareça na cor de letra vermelha com itálico e negrito.  
+
+  
+
+  
+
+5. Na cidade de Algoritmolândia a luz custa R$ 0,85 por KWh. Crie um programa que:  
+
+a) Solicite a quantidade de KWh consumida no mês 
+
+b) Ao clicar em "Calcular conta de luz", calcule o valor da conta no mês 
+
+c) Dê um desconto de 10% somente se a quantidade for menor que 100 KWh 
+
+d) Exiba um alert com o valor da conta a ser paga. 
+
+  
+
+   
+
+6.  Crie um programa que auxilie um banco a identificar quem tem renda o suficiente para fazer o financiamento da casa própria.  
+
+a) Solicite o valor da renda familiar 
+
+b) Solicite o valor da prestação 
+
+c) Ao clicar em "Verificar financiamento", exiba na página a mensagem "A prestação corresponde a XX% da renda familiar" (divida a prestação pela renda e multiplique por 100) 
+
+d) Se o valor calculado acima for maior que 30%, exiba também a mensagem abaixo em negrito e em vermelho: 
+
+    "Será necessário complementar a renda familiar"   
+
+  
+
+  
+
+7. Criar um programa que auxilie o Banco XPTO a identificar quem entrou no cheque especial.  
+
+a) Solicite o saldo da conta 
+
+b) Solicite o valor do débito (ou seja, valor a tirar da conta) 
+
+c) Ao clicar em "Analisar conta", calcule o novo saldo da conta e exiba a mensagem "O saldo atual da conta corrente é XX". Esta frase deverá estar em negrito e vermelho somente se o saldo for menor que zero. 
+
+  
+
+  
+
+8. Crie um programa que controle o peso médio dentro de um elevador:  
+
+a) Solicite a quantidade de homens que entraram no elevador 
+
+b) Solicite a quantidade de mulheres que entraram no elevador 
+
+c) Ao clicar em "Analisar peso", calcule o peso estimado sendo: homens x 80 somado com mulheres x 60 
+
+d) Exiba na página a mensagem "Este elevador suporta 800 Kg e o peso estimado desta lotação é de XXXkg"  
+
+e) Se o peso estimado for maior que 800, exibir também a mensagem "Será necessário que alguém desça para que o elevador se movimente" - na cor azul.  
+
+  
+
+  
+
+9. Estima-se que os usuários de conteúdo de Streaming gastem cerca de 100 milhões de horas por dia nesse tipo de entretenimento.  
+
+Em média um episódio de seriado americano do estilo SITCOM (Friends, How I Met Your Mother, Dois Homens e Meio, etc.) tem 22min de duração.  
+
+Sabendo disso, crie um programa o qual:  
+
+a) Peça ao usuário para informar a última série (SITCOM) que ele assistiu 
+
+b) Peça ao usuário para informar o total de episódios que ele já assistiu da série 
+
+c) Tenha um botão "Verificar nível" que exiba abaixo dele a seguinte frase:  
+
+     "Vejo que você gosta da série X"   
+
+E se o usuário já gastou mais de 30 horas na série informada, exiba também: "Uau, você realmente gosta dessa série!".  
+
+Obs: Considere 22min como o tempo de duração de 1 episódio.  
+
+  
+
+  
+
+10. Crie um programa que faça:  
+
+a) Pergunte ao usuário o valor de seu saldo na conta do banco 
+
+b) Ao clicar no botão "Verificar finanças": 
+
+    b1) Caso o saldo em conta for igual a zero (==0), exiba esta frase na cor preta na tela: "Conta zerada".  
+
+    b2) Caso o saldo seja negativo (<0), exiba esta frase na cor vermelha na tela: "Está devendo!".   
+
+    b3) Caso o saldo seja positivo (>0), exiba esta frase na cor azul: "Saldo positivo! sorriso"  
+
+  
+
+  
+
+11. Crie um programa o qual:  
+
+a) Solicite a quantidade de filhos que o usuário tem  
+
+b) Tenha um botão "Analisar família". Ao clicar nele...  
+
+c) Caso tenha 1 ou mais filhos, exiba na tela, abaixo do botão, a frase "Não tem TV" 
+
+d) Caso tenha 2 ou mais filhos, exiba na tela, abaixo da frase em c), a frase "Não tem internet" 
+
+e) Caso tenha 3 ou mais filhos, exiba na tela, abaixo da frase em d), a frase "Não tem video game" 
+
+f) Caso tenha 4 ou mais filhos, exiba na tela, abaixo da frase em e), a frase "Não tem Netflix" 
+
+    OBS: Ou seja, caso o usuário informe que tenha, por exemplo,  4 ou mais filhos, devem aparecer as seguintes frases:  
+
+          Não tem TV  
+
+          Não tem internet  
+
+          Não tem video game  
+
+          Não tem Netflix  
+
+    Se tiver 2 filhos, deve exibir apenas "Não tem TV" e "Não tem internet", de acordo com as validações descritas acima 
+
+  
+
+     
+
+12. Crie um programa o qual:  
+
+a) Solicite o peso total num elevador  
+
+b) Ao clicar num botão "Ligar elevador"...  
+
+c) Caso o peso seja menor que 500, exiba um alert com a frase "Elevador vai se mover"  
+
+d) Caso o peso seja a partir de 500, exiba um alert com "Alguém precisa descer do elevador"  
+
+   
+
+  
+
+13. Crie um programa o qual:  
+
+a) Solicite 2 notas de um aluno  
+
+b) Ao clicar em "Verificar situação", calcule sua média e...  
+
+c) Caso a média seja a partir de 6, exiba um alert com "Parabéns, aprovado!"  
+
+d) Caso a média seja menor que 6, exiba um alert com "Tente outra vez..."  
+
+  
+
+  
+
+14 (DESAFIO). Agostinho é um taxista do Rio de Janeiro que deseja automatizar sua frota de táxis (Carrara Drivers). Faça um programa em HTML/JS que: 
+
+a) Tenha um campo para nome do passageiro   
+
+b) Tenha um campo para a distância (em km) do local atual para o destino do passageiro 
+
+c) Tenha um campo - que só aceita número - que recebe a informação da bandeira da corrida (o valor deve ser apenas 1, 2 ou 3) 
+
+    c1) Este campo só pode aceitar números e valores entre 1 e 3 
+
+d) Tenha um campo que recebe o horário da corrida (sistema de 24 horas e somente horas inteiras) 
+
+    d1) Este campo só pode aceitar números e valores entre 0 e 23 
+
+e) Ao clicar em "Calcular corrida", informe ao passageiro o valor final da corrida, com uma frase assim: 
+
+    "Olá NOME Sua corrida, será na bandeira X, percorrerá Y km e o total da corrida será de Z" 
+
+    e1) Siga a tabela abaixo para calcular o adicional por bandeira e horário: 
+
+Obs: O valor nominal da corrida é de R$ 1,25 por km  
+
+Descrição Bandeira 
+
+Horário 
+
+Percentual de Acréscimo 
+
+Bandeira 1 
+
+0h – 6h 
+
+5% 
+
+7h - 12h 
+
+10% 
+
+13h - 23h 
+
+15% 
+
+Bandeira 2 
+
+0h – 6h 
+
+10% 
+
+7h - 12h 
+
+20% 
+
+13h - 23h 
+
+30% 
+
+Bandeira 3 
+
+0h – 6h 
+
+15% 
+
+7h - 12h 
+
+30% 
+
+13h - 23h 
+
+45% 
+
+ 
+
+ 
+
+Exemplos, para testes:  
+
+Distância (KM) 
+
+Bandeira 
+
+Horário 
+
+Total 
+
+10 
+
+1 
+
+14 
+
+14.375 
+
+20 
+
+2 
+
+15 
+
+32.5 
+
+30 
+
+3 
+
+16 
+
+54.375 
+
+40 
+
+1 
+
+17 
+
+57.5 
+
+50 
+
+2 
+
+18 
+
+81.25 
+
+60 
+
+3 
+
+19 
+
+108.75 
+
+70 
+
+1 
+
+20 
+
+100.625 
+
+80 
+
+2 
+
+21 
+
+130 
+
+  
+
+ 
+
+15. Criar um programa que auxilie uma Autoescola a identificar possíveis novos alunos. 
+
+a) Solicite o nome e a idade de uma pessoa 
+
+b) Ao clicar no botão "Avaliar aluno", se a pessoa tiver 18 anos ou mais emita a mensagem "NOME, vamos tirar a CNH?", mas caso contrário, emita a mensagem "NOME, vai jogar PlayStation!" 
+
+  
+
+  
+
+16. Criar um programa que auxilie o Banco XPTO a identificar quem entrou no cheque especial. 
+
+a) Solicite o saldo da conta 
+
+b) Solicite o valor do débito (ou seja, valor a tirar da conta) 
+
+c) Ao clicar em "Analisar conta", calcule o novo saldo da conta e exiba a mensagem "o saldo atual da conta corrente é "XX". Esta frase deverá estar em negrito e em vermelho somente se o saldo for menor que zero ou em itálico e azul caso o saldo for 0 ou mais. 
+
+  
+
+  
+
+17. O Mercado BOM DOCE está em promoção, qualquer chocolate custa R$ 3,00 cada e se a compra for acima de uma dúzia de chocolates o preço cai para R$ 2,50 cada um. Criar um programa que auxilie o Mercado a calcular o valor da compra de chocolate 
+
+a) Solicite a quantidade de chocolates comprados 
+
+b) Após clicar num botão "Compra", exiba a mensagem "o valor da sua compra foi de XXX".   
+
+  
+
+  
+
+18. Crie um programa o qual: 
+
+a) Solicita a frequência do aluno 
+
+b) Ao clicar em "Analisar frequência", deve aparecer, abaixo dele: 
+
+    A imagem de um turista, caso a frequência for menor que 50 OU 
+
+    A imagem de um aluno estudioso, caso a frequência for a partir de 50 
+
+   
+
+  
+
+19. Crie um programa o qual: 
+
+a) Solicite 2 notas de um aluno 
+
+b) Ao clicar em "Verificar situação", calcule sua média e... 
+
+c) Caso a média seja a partir de 6, exiba "Parabéns, aprovado!" 
+
+d) Caso a média seja menor que 6, exiba "Tente outra vez..." 
+
+  
+
+  
+
+20. Crie um programa o qual: 
+
+a) Solicita a temperatura do ambiente 
+
+b) Ao clicar em "Verificar clima", determine se o clima está: 
+
+    Apropriada p/ conservar alimento - Caso a temperatura for menor que 10 
+
+    Inapropriada p/ conservar alimento - Caso a temperatura for a partir de 10 
+
+c) Em caso de temperatura apropriada, exiba a figura de um alimento em bom estado. Caso contrário, exiba a imagem de um alimento estragado 
+
+
+
+  
+
+21. Crie um programa o qual: 
+
+a) Solicite a quantidade de homens e mulheres num elevador 
+
+b) Ao clicar num botão "Ligar elevador", calcule o peso total no elevador, considerando que um homem pesa em média 90kg e uma mulher 70kg 
+
+c) Caso o peso seja até 500, exiba uma frase na cor verde abaixo do botão com a frase Elevador vai se mover, pois está com Xkg 
+
+d) Caso o peso seja maior que 500, exiba uma frase na cor vermelha abaixo do botão com a frase Alguém precisa descer. Precisa perder Xkg para mover o elevador 
+
+  
+
+  
+
+22. Crie um programa o qual: 
+
+a) Pergunte ao usuário qual sua meta de economia 
+
+b) Pergunte ao usuário quanto tem guardado 
+
+c) Ao clicar em "Analisar economia"... 
+
+d) Caso a meta tenha sido alcançada ou ultrapassada, exibir, abaixo do botão, a frase Parabéns, meta alcançada!. Caso a meta tenha sido ultrapassada, exibir também a frase Meta ultrapassada em X (onde X é a diferença entre a economia e a meta) 
+
+e) Caso a meta ainda não tenha sido alcançada, exibir, abaixo do botão, a frase Força! Ainda em busca da meta! Falta X (onde X é a diferença entre a meta e a economia) 
+
+  
+
+  
+
+23. Agora você é o professor! 
+
+a) Crie um enunciado de questão que utilize dos conceitos abordados até agora. 
+
+b) Escolha um colega e passe o desafio pra ele fazer a solução do enunciado. 
+
+c) E você deve resolver o enunciado que algum outro colega elaborou. 
+
+d) Ao final das soluções, o dono do enunciado deve corrigir a solução apresentada pelo colega e vice-versa. 
+
+OBS: crie um arquivo HTML contendo o enunciado que você criou e faça o upload somente do enunciado, contendo o nome do colega que você desafiou. 
