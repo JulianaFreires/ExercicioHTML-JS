@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+Quantidade de filhos: <input type='text' id='input_qtd'><br>
+
+<button onclick="analisar()">Analisar familia</button>
+
+<div id='div_mensagem'></div>
+
+</body>
+
+</html>
+
+<script>
+    function analisar() {
+
+        var qtd = Number(input_qtd.value);
+
+        if (qtd >= 1) {
+            div_mensagem.innerHTML += `Não tem TV<br>`
+
+            if (qtd >= 2) {
+                div_mensagem.innerHTML += `Não tem internet<br>`
+
+
+                if (qtd >= 3) {
+                    div_mensagem.innerHTML += `Não tem video game<br>`
+
+                    if (qtd >= 4) {
+                        div_mensagem.innerHTML += `Não tem Netflix<br>`
+                    }
+                }
+            }
+        }
+
+
+    }
+
+</script>

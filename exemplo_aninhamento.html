@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Número: <input type="text" id="input_numero">
+    <button onclick="analisar()">Analisar</button>
+    <div id="div_mensagem"></div>
+</body>
+</html>
+
+<script>
+    function analisar() {
+        var numero = Number(input_numero.value); // captura o número inserido e armazena na input  
+
+        // abaixo, temos uma estrutura de decisão ANINHADA, ou seja, uma dentro da outra
+        if (numero >= 0) { // primeiro, valida se o número é positivo
+            
+            // realiza a próxima validação apenas se passou na validação anterior
+            if (numero <= 10) { // na sequência, valida se o número vai até 10 
+                
+                alert("O número está entre 0 e 10");
+
+            } else { // caso o número seja maior que 10
+
+                alert("O número não pode ser maior que 10");
+
+            }
+
+
+        } else { // caso o número seja negativo (falhou na primeira validação) ignora o bloco do "IF" e cai direto no "ELSE"
+            alert("O número não pode ser negativo");
+        }
+    }
+</script>

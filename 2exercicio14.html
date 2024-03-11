@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Qual o ki base:
+    <input id="input_ki" type="text"><br>
+   
+    Transformar em:<br>
+   
+    <button onclick="poder1()">SSJ</button>
+    <button onclick="poder2()">SSJ2</button>
+    <button onclick="poder3()">SSJ3</button>
+
+    <div id="div_mensagem"></div>
+
+</body>
+</html>
+
+<script>
+
+    function poder1() {
+        var ki = Number(input_ki.value);
+        var poder = ki * 50
+        div_mensagem.innerHTML = `Após se transformar em SSJ, o ki desse Sayajin passa a ser de ${poder} `
+    }
+
+    function poder2() {
+        var ki = Number(input_ki.value);
+        var poder = ki * 100
+        div_mensagem.innerHTML = `Após se transformar em SSJ2, o ki desse Sayajin passa a ser de ${poder} `
+    }
+
+    function poder3() {
+        var ki = Number(input_ki.value);
+        var poder = ki * 200
+        div_mensagem.innerHTML = `Após se transformar em SSJ3, o ki desse Sayajin passa a ser de ${poder} `
+    }
+    
+
+</script>

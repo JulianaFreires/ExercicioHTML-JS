@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <button onclick="pagar()">pagar50</button>
+    <button onclick="receber()">receber100</button>
+</body>
+</html>
+
+<script>
+    var saldo = 0;
+    var recebimento = 100;
+    var pagamento = 50;
+
+        function receber(){
+           
+            saldo = saldo + recebimento;
+
+            alert("Transferência de R$100 recebida! " + saldo);
+        }
+
+        function pagar(){
+            saldo = saldo - pagamento;
+
+            alert("Pagamento de R$50 efetuado! " + saldo);
+        }
+
+
+
+</script>

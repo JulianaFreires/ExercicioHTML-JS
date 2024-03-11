@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    Numero que deseja ver na tabuada:
+    <input id="input_numero" input="text">
+
+    <button onclick="ver()">Ver tabuada</button>
+
+    <div id="div_mensagem"></div>
+</body>
+
+</html>
+
+<script>
+
+    function ver() {
+
+        var num = Number(input_numero.value);
+        resul = num
+
+        div_mensagem.innerHTML = `
+        ${num} x 1 = ${resul * 1}<br>
+
+        ${num} x 2 = ${resul * 2}<br>
+
+        ${num} x 3 = ${resul * 3}<br>
+
+        ${num} x 4 = ${resul * 4}<br>   
+
+        ${num} x 5 = ${resul * 5}<br>  
+
+        ${num} x 6 = ${resul * 6}<br>  
+
+        ${num} x 7 = ${resul * 7}<br>  
+
+        ${num} x 8 = ${resul * 8}<br> 
+
+        ${num} x 9 = ${resul * 9}<br>  `
+
+    }
+
+
+</script>

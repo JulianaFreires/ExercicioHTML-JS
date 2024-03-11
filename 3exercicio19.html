@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    Temperatura do ambiente:
+    <input id="input_temp" type="text">
+
+  
+
+    <button onclick="verificar()">Verificar clima</button>
+
+    <div id="div_mensagem"></div>
+     
+</body>
+</html>
+
+<script>
+    function verificar() {
+        var temperatura  = Number(input_temp.value)
+
+        if (temperatura <= 10) {
+        div_mensagem.innerHTML = `<img src=https://content.paodeacucar.com/wp-content/uploads/2020/01/frutas-e-verduras-de-janeiro-capa.jpg> Temperatura Apropriada p/ conservar alimento`
+         
+
+        }else{
+        div_mensagem.innerHTML = `<img src=https://st.depositphotos.com/12889260/59881/v/450/depositphotos_598817086-stock-illustration-cartoon-isolated-spoiled-damaged-fruit.jpg> Temperatura Inapropriada p/ conservar alimento`
+    }
+        
+
+    }
+</script>

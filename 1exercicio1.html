@@ -1,0 +1,31 @@
+
+Copy code
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titulo - EXERCICIO1</title>
+</head>
+<body>
+
+    <h1>Exercicio1</h1>
+
+    Cidade Natal:
+    <input id="cidadeNatal" type="text"><br>
+    Ano de nascimento:
+    <input id="anoNascimento" type="date"><br>
+
+    
+    <button onclick="cadastrar()">Cadastrar</button>
+
+</body>
+</html>
+<script>
+
+    function cadastrar() {
+
+        alert('Você nasceu na cidade de ' + cidadeNatal.value + ' em ' + anoNascimento.value);
+    }
+
+</script>

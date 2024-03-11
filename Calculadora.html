@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 02 - Calculadora com JS</title>
+</head>
+<body>
+
+    <h1>Calculadora JS</h1>
+
+    Número 1: <input id="n1" type="text">    <br>
+    Número 2: <input id="n2" type="text">    <br>
+    <button onclick="multiplicar()">Multiplicar (*)</button>
+    <button onclick="dividir()">Dividir (/) </button>
+    <button onclick="subtrair()">Subtrair (-)</button>
+    <button onclick="somar()">Somar (+)</button>
+    
+</body>
+</html>
+
+<script>
+    /*
+        utilizando a concatenação, podemos juntar os valores digitados e trechos de texto estático, como:    
+            
+            valor1 + "texto estático" + valor2 + "texto estático" + valor3
+
+        com isso, podemos montar frases como as abaixo:
+
+            valor1 * valor2 = valor3
+            valor1 / valor2 = valor3
+            valor1 - valor2 = valor3
+            valor1 + valor2 = valor3        
+    */
+
+    function multiplicar() {
+        alert(n1.value + ' * ' + n2.value + ' = ' + n1.value * n2.value);
+    }
+
+
+    function dividir() {
+        alert(n1.value + ' / ' + n2.value + ' = ' + n1.value / n2.value);
+    }
+    
+
+    function subtrair () {
+        alert(n1.value + ' - ' + n2.value + ' = ' + (n1.value - n2.value));
+    }
+    
+    
+    function somar () {
+        alert(n1.value + ' + ' + n2.value + ' = ' + (Number(n1.value) + Number(n2.value)));
+    }
+    // Number("X"): serve para converter o valor "X" em número. Caso não consiga, retornará "NaN" (Not A Number);
+    // NaN significa "Not a Number" ("Não é um Número"), que serve para indicar que existe algum cálculo ou conversão usando um valor não-numérico
+    // caso os campos não estejam preenchidos, utilizará o valor vazio ("") para o cálculo;
+    //     - o que acontece se dividirmos "morango" por 2?   "morango" / 2  ->  NaN. afinal. "morango" é um texto que não pode ser dividido
+
+</script>
+
+

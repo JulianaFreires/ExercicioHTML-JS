@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width. initial-scale=1.0">
+    <title>Aula 02 - Calculadora com JS</title>
+</head>
+<body>
+
+    <h1>Calculadora JS</h1>
+
+    <!-- 
+        os IDs devem ser únicos, assim como o nome das variáveis
+        no script, declaramos as variáveis "n1" e "n2" nas funções,
+        portanto, mudamos os IDs de "n1" e "n2" para "input_n1" e "input_n2"
+        deste modo, evitamos a duplicidade/ambiguidade de identificadores, evitando conflitos
+    -->
+    Número 1: <input id="input_n1" type="text">    <br>
+    Número 2: <input id="input_n2" type="text">    <br>
+    <button onclick="multiplicar()">  Multiplicar (*)  </button>
+    <button onclick="dividir()">  Dividir (/)  </button>
+    <button onclick="subtrair()">  Subtrair (-)  </button>
+    <button onclick="somar()">  Somar (+)  </button>
+    
+</body>
+</html>
+
+<script>
+    /*
+        Composição de uma variável:
+
+            var nome_variavel = "valor da variável";
+
+        - var: a palavra reservada que indica ao JS que a seguir será definida uma variável que irá armazenar algum valor;
+        - nome_variavel: é o identificador da variável, como se fosse um "apelido" para a informação armazenada;
+        - =: as chaves indicam que iremos atribuir algum valor para essa variável;
+        - "valor variável": é o valor que será atribuido a variável, pode conter textos, números, etc; 
+    */
+
+    function multiplicar() {
+        var n1 = Number(input_n1.value);
+        var n2 = Number(input_n2.value);
+
+        var multiplicacao = n1 * n2; // calcula e armazena o resultado na variável
+        var mensagem = n1 + ' * ' + n2 + ' = ' + multiplicacao; // utiliza as variáveis para estruturar a mensagem dinamicamente
+        
+        alert(mensagem); // a saída da mensagem será algo como: "valor1 * valor2 = valor3"
+    }
+
+
+    function dividir() {
+        var n1 = Number(input_n1.value);
+        var n2 = Number(input_n2.value);
+
+        var divisao = n1 / n2; // calcula e armazena o resultado na variável
+        var mensagem = n1 + ' / ' + n2 + ' = ' + divisao; // utiliza as variáveis para estruturar a mensagem dinamicamente
+
+        alert(mensagem); // a saída da mensagem será algo como: "valor1 / valor2 = valor3"
+    }
+
+    
+    function subtrair () {
+        var n1 = Number(input_n1.value);
+        var n2 = Number(input_n2.value);
+
+        var subtracao = n1 - n2; // calcula e armazena o resultado na variável
+        var mensagem = n1 + ' - ' + n2 + ' = ' + subtracao; // utiliza as variáveis para estruturar a mensagem dinamicamente
+
+        alert(mensagem); // a saída da mensagem será algo como: "valor1 - valor2 = valor3"
+    }
+    
+
+    function somar () {
+        var n1 = Number(input_n1.value);
+        var n2 = Number(input_n2.value);
+
+        var soma = n1 + n2 // calcula e armazena o resultado na variável
+        var mensagem = n1 + ' + ' + n2 + ' = ' + soma; // utiliza as variáveis para estruturar a mensagem dinamicamente
+
+        alert(mensagem); // a saída da mensagem será algo como: "valor1 + valor2 = valor3"
+    }
+
+    // Number("X"): serve para converter o valor "X" em número. Caso não consiga, retornará "NaN" (Not A Number);
+    // NaN significa "Not a Number" ("Não é um Número"), que serve para indicar que existe algum cálculo ou conversão usando um valor não-numérico
+    // caso os campos não estejam preenchidos, utilizará o valor vazio ("") para o cálculo;
+    //     - o que acontece se dividirmos "morango" por 2?   "morango" / 2  ->  NaN. afinal. "morango" é um texto que não pode ser dividido
+
+</script>

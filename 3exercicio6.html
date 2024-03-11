@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Renda Familiar: <input type="text" id="input_renda"> <br>
+    Prestação: <input type="text" id="input_prestacao"> <br>
+    <button onclick="verificar()">Verificar financiamento</button>
+    <div id="div_mensagem"></div>   
+
+</body>
+</html>
+
+<script>
+    function verificar() {
+        var renda = Number(input_renda.value);
+        var prestacao = Number(input_prestacao.value);
+
+        var percentual_prestacao = prestacao / renda * 100; // encontra quanto a prestação equivale da renda, em percentual 
+        // se a renda é 1000 e a prestação 400, a prestação equivale a 40% da renda
+        
+        div_mensagem.innerHTML = `A prestação corresponde a ${percentual_prestacao}% da renda familiar`;
+
+        if (percentual_prestacao > 30) {
+            // div_mensagem.innerHTML = div_mensagem.innerHTML + `<br> <b style="color: red;">Será necessário complementar a renda familiar</b>`
+            
+            div_mensagem.innerHTML += `<br> <b style="color: red;">Será necessário complementar a renda familiar</b>`
+            // incrementa o conteúdo da div, representa o mesmo comando que está comentado acima
+        }
+    }
+</script>

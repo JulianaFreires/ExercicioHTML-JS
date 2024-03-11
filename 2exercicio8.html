@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   valor a ser retirado ou depositado:
+   <input id = 'input_valor' type = 'text'><br>
+   
+
+    <button onclick="deposito()">depositar</button>
+    <button onclick="retirada()">retirar</button>
+</body>
+</html>
+
+<script>
+    var saldo = 0;
+   
+        function deposito(){
+            var valor = Number(input_valor.value);
+            saldo = saldo + valor;
+
+            alert(" Depósito de " + valor + ' efetuado! Saldo atual: ' + saldo);
+        }
+
+        function retirada(){
+            var valor = Number(input_valor.value);
+            saldo = saldo - valor;
+            
+
+            alert(" Retirada de " + valor + ' efetuado! Saldo atual: ' + saldo);
+        }
+
+
+
+</script>

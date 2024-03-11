@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Quantidade KWh consumida: <input type="text" id="input_qtd">
+    <button onclick="calcular()">Calcular conta</button>
+</body>
+</html>
+
+<script>
+    function calcular() {
+        var qtd = Number(input_qtd.value); // captura o número inserido e armazena na input
+        var conta = qtd * 0.85;
+       
+        if (qtd < 100) {
+            conta  =  conta * 0.9;   // obtém 90% do valor da conta (reduz 10% de 100%)
+            //    conta  =  conta * 90 / 100;   // obtém 90% do valor da conta (reduz 10% de 100%)
+            //    conta  =  conta * (100 - 10) / 100;   // obtém 90% do valor da conta (reduz 10% de 100%)
+            //    conta  =  conta - (conta * 0.1);   // reduz o valor da conta em 10% do próprio valor 
+        }
+        
+        alert("Total a pagar: R$" + conta);
+    }
+</script>

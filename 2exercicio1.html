@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Idade: <input type="text" id="input_idade"> <br>
+    <button onclick="aposentarH()">Aposentadoria Homem</button>
+    <button onclick="aposentarM()">Aposentadoria Mulher</button>
+</body>
+</html>
+
+<script>
+    function aposentarH() {
+        var idade = input_idade.value;
+        var calculo = 70 - idade;
+        alert('Para se aposentar, faltam ' + calculo + " anos!");
+    }
+
+    function aposentarM() {
+        var idade = input_idade.value;
+        var calculo = 60 - idade;
+        alert('Para se aposentar, faltam ' + calculo + " anos!");
+    }
+</script>

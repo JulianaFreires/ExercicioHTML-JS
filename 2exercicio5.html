@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Nota Continuada: <input type="text" id="input_continuada"> <br>
+    Nota Semestral: <input type="text" id="input_semestral"> <br>
+    Nome: <input type="text" id="input_nome"> <br>
+    <button onclick="ver()">Ver Média</button>
+</body>
+</html>
+
+<script>
+    function ver() {
+        var continuada = Number(input_continuada.value);
+        var semestral = Number(input_semestral.value);
+        var nome = input_nome.value;
+
+        var peso_continuada = continuada * 0.4;
+        var peso_semestral = semestral * 60 / 100;
+
+        var media_final = peso_continuada + peso_semestral;
+        
+        alert('A média de ' + nome + ' será de ' + media_final);
+    }
+</script>

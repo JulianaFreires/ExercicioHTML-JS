@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Nome: <input type="text" id="input_nome"> <br>
+    Força: <input type="text" id="input_ki"> <br>
+    <button onclick="ver()">Ver Ki em cada forma</button>
+</body>
+</html>
+
+<script>
+    function ver() {
+        var nome = input_nome.value;
+        var forca = input_ki.value;
+
+        var forca_ssj = forca * 50;
+        // var forca_ssj2 = forca * 100;
+        var forca_ssj2 = forca_ssj * 2;
+
+        alert('A força do guerreiro ' + nome + ' é de ' + forca_ssj + ' na forma Super Sayajin');
+        alert('A força do guerreiro ' + nome + ' é de ' + forca_ssj2 + ' na forma Super Sayajin 2');
+    }
+</script>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <button onclick="contar()">Contar</button>
+    <button onclick="exibir()">Exibir</button>
+    
+    <div id="div_mensagem">Essa é uma divisória</div>
+</body>
+</html>
+
+<script>
+    var contador = 0; // cria variável GLOBAL "contador", iniciada com valor 0
+
+    function contar() {
+        contador = contador + 1; // reatribui o valor do contador, somando 1 ao seu valor atual
+    } 
+    
+    function exibir() {
+        div_mensagem.innerHTML = div_mensagem.innerHTML + "<br> O contador está em: " + contador;
+    }
+</script>

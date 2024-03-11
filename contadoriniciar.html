@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Iniciar contagem em... <input value="123" type="text" id="input_contagem">
+    <button onclick="iniciar()">Iniciar Contagem</button>
+    
+    <button onclick="contar()">Contar</button>
+    <button onclick="exibir()">Exibir</button>
+</body>
+</html>
+
+<script>
+    var contador = 0;
+    
+    function iniciar() {
+        contador = Number(input_contagem.value);
+    }
+
+    function contar() {
+        contador = contador + 1;
+    } 
+    
+    function exibir() {
+        alert("O contador está em: " + contador);
+    }
+</script>
